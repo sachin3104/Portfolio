@@ -1,8 +1,9 @@
 // import logo from "../assets/kevinRushLogo.png";
-import logo from "../assets/Logo4.png";
+import logo from "../assets/Logo.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub, FaFileAlt } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaCode } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -36,7 +37,15 @@ const Navbar = () => {
           <FaSquareXTwitter />
         </a>
         <a
-          href="https://drive.google.com/file/d/1_Oq_sJSyHUS8z80rvWEZ7Rmy5-qrSxAZ/view?usp=sharing"
+          href="https://leetcode.com/u/sachinjakhar45/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LeetCode"
+        >
+          <FaCode />
+        </a>
+        <a
+          href="https://docs.google.com/document/d/1bFxdPXNCZHQaTnp-O-8bT7oeDLQwhNfxFffaXIejBbg/edit?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Resume"
