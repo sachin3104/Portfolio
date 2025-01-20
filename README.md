@@ -1,8 +1,19 @@
-# React + Vite
+# Sachin Jakhar - Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About Me
 
-Currently, two official plugins are available:
+I'm a Full Stack Developer with a passion for creating innovative web solutions. Currently focused on building scalable applications using modern technologies like React, Node.js, and Next.js. I enjoy solving complex problems and turning ideas into reality through code.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Portfolio Website
+
+🔗 [View My Portfolio](https://portfolio-sachin-jakhar.vercel.app)
+
+## Let's Connect
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/sachinjakhar/)
+- 🐦 [Twitter/X](https://x.com/_Sachin_Jakhar)
+- 💻 [LeetCode](https://leetcode.com/u/_sachin_jakhar/)
+
+---
+
+_Feel free to reach out for collaborations or just a tech chat!_ ✨

@@ -1,9 +1,12 @@
-import TapBlog from "../assets/projects/TapBlog.png";
+import SportStream from "../assets/projects/Sportstream.png";
+import Blockchain from "../assets/projects/Blockchain.png";
+import Dorothy from "../assets/projects/Dorothy.png";
 import ChicagoEnergy from "../assets/projects/ChicagoEnergy.png";
-import ToDo from "../assets/projects/ToDo.png";
 import SocialLens from "../assets/projects/SocialLens.png";
 import DrugBase from "../assets/projects/DrugBase.png";
-import EShop from "../assets/projects/EShop.png";
+// import TapBlog from "../assets/projects/TapBlog.png";
+// import ToDo from "../assets/projects/ToDo.png";
+// import EShop from "../assets/projects/EShop.png";
 
 export const HERO_CONTENT = `I am a passionate software developer with a keen interest in web development, eager to learn quickly and adapt to new technologies.`;
 
@@ -21,6 +24,59 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Chicago Building Energy Usage",
+    image: ChicagoEnergy,
+    description:
+      "This project is a web application that provides a searchable and interactive dashboard for visualizing the 2010 energy usage data of Chicago buildings. Users can search, filter, and view details about buildings, including energy usage over time.",
+    technologies: ["Next.js", "React.js", "Javascript", "Tailwind", "Chart.js"],
+    github: "https://github.com/sachin3104/Chicago-Building-Energy-Usage",
+    live: "https://chicago-building-energy-usage.vercel.app/?vercelToolbarCode=bs9Easb4zS1Ny4t",
+  },
+  {
+    title: "SportStream",
+    image: SportStream,
+    description:
+      "A modern cricket analytics platform that provides real-time match statistics, interactive visualizations, and comprehensive cricket data analysis. Features include team performance metrics, and player statistics with an intuitive dark-themed interface.",
+    technologies: [
+      "Next.js",
+      "React.js",
+      "JavaScript",
+      "Tailwind CSS",
+      "Chart.js",
+    ],
+    github: "https://github.com/sachin3104/sportstream",
+    live: "https://sportstream-eta.vercel.app",
+  },
+  {
+    title: "Blockchain Signature Verifier",
+    image: Blockchain,
+    description:
+      "A blockchain cryptography project focusing on digital signature verification in crypto transactions. It implements the secp256k1 curve used by Ethereum and Bitcoin for public key cryptography, demonstrating the verification of ECDSA signatures through rigorous cryptographic implementation.",
+    technologies: [
+      "JavaScript",
+      "Cryptography",
+      "ECDSA",
+      "secp256k1",
+      "Node.js",
+    ],
+    github: "https://github.com/sachin3104/blockchain-sig-verifier",
+  },
+  {
+    title: "Dorothy & The Witch",
+    image: Dorothy,
+    description:
+      "An interactive cost analysis tool themed around Dorothy's journey through Munchkin Land. The application helps calculate and visualize the cost implications of magical upgrades (spells) for Dorothy's car, featuring dynamic charts, real-time calculations, and an enchanted user interface that makes financial planning magical.",
+    technologies: [
+      "Next.js 14",
+      "Chart.js",
+      "Tailwind CSS",
+      "JavaScript",
+      "Cinzel Decorative Font",
+    ],
+    github: "https://github.com/sachin3104/dorothy-and-witch",
+    live: "https://dorothy-and-witch.vercel.app/",
+  },
+  {
     title: "DrugBase",
     image: DrugBase,
     description:
@@ -35,14 +91,6 @@ export const PROJECTS = [
     link: "https://github.com/sachin3104/DrugBase-NEXT",
   },
   {
-    title: "TapBlog",
-    image: TapBlog,
-    description:
-      "This is a blogging platform built using Next.js, React, and JavaScript. Users can create an account, log in using JWT authentication, and add or read blogs. The website is styled using Tailwind CSS, ensuring a modern and responsive design.",
-    technologies: ["Next.js", "React.js", "Javascript", "Tailwind"],
-    link: "https://github.com/sachin3104/TapBlog-NEXT",
-  },
-  {
     title: "SocialLens",
     image: SocialLens,
     description:
@@ -52,30 +100,30 @@ export const PROJECTS = [
     live: "https://sociallens.vercel.app/?vercelToolbarCode=2I2MWqoPKatOSd1",
   },
   // {
-  //   title: "Chicago Building Energy Usage",
-  //   image: ChicagoEnergy,
+  //   title: "TapBlog",
+  //   image: TapBlog,
   //   description:
-  //     "This project is a web application that provides a searchable and interactive dashboard for visualizing the 2010 energy usage data of Chicago buildings. Users can search, filter, and view details about buildings, including energy usage over time.",
-  //   technologies: ["Next.js", "React.js", "Javascript", "Tailwind", "Chart.js"],
-  //   github: "https://github.com/sachin3104/Chicago-Building-Energy-Usage",
-  //   live: "https://chicago-building-energy-usage.vercel.app/?vercelToolbarCode=bs9Easb4zS1Ny4t",
+  //     "This is a blogging platform built using Next.js, React, and JavaScript. Users can create an account, log in using JWT authentication, and add or read blogs. The website is styled using Tailwind CSS, ensuring a modern and responsive design.",
+  //   technologies: ["Next.js", "React.js", "Javascript", "Tailwind"],
+  //   link: "https://github.com/sachin3104/TapBlog-NEXT",
   // },
-  {
-    title: "ShopSphere",
-    image: EShop,
-    description:
-      "This is a shopping website built using Next.js, React, and JavaScript. Users can browse products, add them to the cart, and manage their cart seamlessly.",
-    technologies: ["Next.js", "React.js", "Javascript", "Tailwind"],
-    link: "https://github.com/sachin3104/ShopSphere-NEXT",
-  },
-  {
-    title: "ToDoMore",
-    image: ToDo,
-    description:
-      "This is a Todo application built using Next.js and React. Users can add, edit, and delete tasks, making it easy to manage their daily activities. The application features a clean and responsive design for a seamless experience across different devices.",
-    technologies: ["Next.js", "React.js", "Javascript", "Tailwind"],
-    link: "https://github.com/sachin3104/ToDoMore-NEXT",
-  },
+
+  // {
+  //   title: "ShopSphere",
+  //   image: EShop,
+  //   description:
+  //     "This is a shopping website built using Next.js, React, and JavaScript. Users can browse products, add them to the cart, and manage their cart seamlessly.",
+  //   technologies: ["Next.js", "React.js", "Javascript", "Tailwind"],
+  //   link: "https://github.com/sachin3104/ShopSphere-NEXT",
+  // },
+  // {
+  //   title: "ToDoMore",
+  //   image: ToDo,
+  //   description:
+  //     "This is a Todo application built using Next.js and React. Users can add, edit, and delete tasks, making it easy to manage their daily activities. The application features a clean and responsive design for a seamless experience across different devices.",
+  //   technologies: ["Next.js", "React.js", "Javascript", "Tailwind"],
+  //   link: "https://github.com/sachin3104/ToDoMore-NEXT",
+  // },
 ];
 
 export const CONTACT = {
